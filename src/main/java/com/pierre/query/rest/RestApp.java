@@ -1,4 +1,4 @@
-package com.csg.query.rest;
+package com.pierre.query.rest;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -11,7 +11,7 @@ public class RestApp extends Application {
     private Set<Class<?>> empty = new HashSet<>();
 
     public RestApp() {
-        singletons.add(new Endpoint());
+        singletons.add(new EndPoint());
     }
 
     @Override
